@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title.name %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% for(t of title) {%>
+    <h1><%=t.name %></h1>
+    <% } %> 
+    <p>Welcome to <%= title.name %></p>
+  </body>
+</html>

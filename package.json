@@ -1,0 +1,29 @@
+{
+  "name": "flametest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-ejs-layouts": "^2.5.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "description": "FlameTest",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvmatts/FlameTest.git"
+  },
+  "author": "yvmatts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvmatts/FlameTest/issues"
+  },
+  "homepage": "https://github.com/yvmatts/FlameTest#readme"
+}
