@@ -1,13 +1,18 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title.name %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <% for(t of title) {%>
-    <h1><%=t.name %></h1>
-    <% } %> 
-    <p>Welcome to <%= title.name %></p>
-  </body>
-</html>
+<body>
+  <form id="dropFileForm" action="/home" method="post" enctype="multipart/form-data">
+    <input type="file" name="img" id="fileInput">
+
+    <label for="fileInput" id="fileLabel" >
+      <i class="fa fa-download fa-5x"></i>
+      <br>
+      <span id="fileLabelText">
+        Choose a file
+      </span>
+      <br>
+      <span id="uploadStatus"></span>
+    </label>
+
+    <input type="submit" value="Upload" class="uploadButton">
+  </form>
+
+</body>
